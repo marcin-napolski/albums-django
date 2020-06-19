@@ -25,7 +25,7 @@ SECRET_KEY = '#t@y9xus&ah_k+mp5lpie!4s)+h#^9(mgk(58o$#a6#uydbyuy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','albums.joker.usermd.net']
+ALLOWED_HOSTS = ['localhost', 'albums.joker.usermd.net']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'albums'
 ]
 
 MIDDLEWARE = [
